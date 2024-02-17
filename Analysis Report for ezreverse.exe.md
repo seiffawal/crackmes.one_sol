@@ -28,6 +28,7 @@ The ezreverse.exe application is designed to accept a username and password from
 
 - Comparison with edx: Notably, there is a comparison operation involving the value stored in the edx register and a specific memory address [rsp+0C8h+pw]. This comparison likely plays a crucial role in determining whether the password is considered "good" or "bad."
 <span style="color:red">**CODE DECOMPILED(ghidra)**</span>
+`Password --> Sum of the ascii number of username characters`
 
 
 
